@@ -68,6 +68,16 @@ cargo build --release
 ```
 The executable should have been built inside `target/release/`.
 
+### With Docker
+
+Run docker compose to build with Docker:
+```
+docker-compose up
+```
+The executable `cli-data-compressor` should be available in the root directory of this project.
+
+This pulls the `rust:1.87` Docker image which is somewhat big. Remove the image and container if desired after building.
+
 
 ## Usage
 
