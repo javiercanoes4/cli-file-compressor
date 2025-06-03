@@ -1,0 +1,14 @@
+[package]
+name = "cli-file-compressor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.39", features = ["derive"] }
+serde = { version = "1.0.219", features = ["derive"] }
+env_logger = "0.11.8"
+flate2 = "1.1.1"
+log = "0.4.27"
+serde_json = "1.0.140"
+tar = "0.4.44"
+zip = "4.0.0"
