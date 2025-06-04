@@ -70,13 +70,34 @@ The executable should have been built inside `target/release/`.
 
 ### With Docker
 
-Run docker compose to build with Docker:
+* Clone this repository:
 ```
+git clone https://github.com/javiercanoes4/cli-file-compressor.git
+```
+
+* Run docker compose to build with Docker:
+```
+cd ./cli-file-compressor
 docker-compose up
 ```
 The executable `cli-data-compressor` should be available in the root directory of this project.
 
 This pulls the `rust:1.87` Docker image which is somewhat big. Remove the image and container if desired after building.
+
+### Debug version
+
+* [Install Rust and Cargo.](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+* Clone this repository:
+```
+git clone https://github.com/javiercanoes4/cli-file-compressor.git
+```
+
+* Run with Cargo:
+* Build with Cargo as if you were running the executable:
+```
+cd ./cli-file-compressor
+cargo run -- --help
+```
 
 
 ## Usage
