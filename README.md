@@ -92,7 +92,7 @@ This pulls the `rust:1.87` Docker image which is somewhat big. Remove the image 
 git clone https://github.com/javiercanoes4/cli-file-compressor.git
 ```
 
-* Build with Cargo as if you were running the executable:
+* Run with Cargo as if you were running the executable:
 ```
 cd ./cli-file-compressor
 cargo run -- --help
